@@ -1,0 +1,143 @@
+@font-face {
+font-family: 'calibri-webfont';
+src: url('../fonts/calibri-webfont.eot');
+src: url('../fonts/calibri-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/calibri-webfont.woff') format('woff'),
+url('../fonts/calibri-webfont.ttf')  format('truetype'),
+url('../fonts/calibri-webfont.svg#svgFontName') format('svg');
+}
+body{
+font-family: calibri-webfont;
+background-color: #00bfff;
+}
+.container{
+background-color: #fff;
+margin-top: 10px;
+border-radius: 20px;
+padding-bottom: 40px;
+margin-bottom: 20px;
+}
+header{
+text-align: center;
+padding-top: 40px;
+padding-bottom: 40px;
+margin-bottom: 20px;
+border-bottom: 1px solid #00aeef;
+}
+header h1{
+color: #00aeef;
+}
+.menubox{
+margin: 0 auto;
+}
+ul.menubox{
+list-style-type: none;
+}
+ul.menubox li{
+display: inline-block;
+margin-bottom: 5px;
+}
+ul.menubox li a{
+background-color: #00aeef;
+color: #fff;
+width: 175px;
+height: 150px;
+display: block;
+text-align: center;
+line-height: 150px;
+font-size: 16px;
+font-weight: bold;
+border-radius: 20px;
+}
+ul.menubox li a:hover{
+text-decoration: none;
+color: #fff;
+background-color: #5ecdff;
+}
+.nav > li > a{
+border: 1px solid #00aeef;
+}
+.nav > li > a:hover{
+background-color: #00aeef;
+color: #fff;
+}
+a:active, a:visited, a:focus{
+text-decoration: none;
+color: #fff;
+outline: none;
+}
+a{
+color: #00aeef;
+}
+a:hover{
+color: #5ecdff;
+text-decoration: none;
+}
+h1, h2, h3, h4, h5{
+color: #00aeef;
+}
+.btn-default{
+background-color: #00aeef;
+color: #fff;
+border: none;
+}
+.btn-default:hover{
+color: #fff;
+background-color: #5ecdff;
+}
+.alert-info{
+color: #00aeef;
+background-color: #c8f2ff;
+border: none;
+}
+.table-striped thead th{
+background-color: #00aeef;
+color: #fff;
+}
+.timetable{
+border-top: 5px solid #0095cc;
+}
+.timetable > tbody > tr > td{
+border: 1px solid #0095cc;
+color: #0095cc;
+}
+.timetable > thead > tr > th{
+border: 1px solid #0095cc;
+}
+.timetable thead > tr > th{
+background-color: #00aeef;
+color: #fff;
+text-align: center;
+vertical-align: middle;
+}
+.days{
+color: #00aeef;
+background-color: #c8f2ff;
+}
+ol{
+list-style-type: none;
+color: #0095cc;
+font-size: 18px;
+}
+p{
+color: #0095cc;
+font-size: 18px;
+}
+.clock{
+background-color: #00aeef;
+border-radius: 10px;
+border-top: 5px solid #0095cc;
+}
+.clock h3, .clock h4{
+color: #fff;
+}
+.time{
+font-size: 26px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.today h4{
+border-bottom: 1px solid #0095cc;
+padding-bottom: 10px;
+color: #0095cc;
+}
