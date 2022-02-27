@@ -1,0 +1,25 @@
+[04-Oct-2017 04:39:01 UTC] PHP Notice:  Undefined index: cpid in /home/bluedentindia/public_html/addcart.php on line 7
+[04-Oct-2017 04:39:01 UTC] PHP Notice:  Undefined index: cqnty in /home/bluedentindia/public_html/addcart.php on line 8
+[21-Dec-2017 16:53:01 UTC] PHP Notice:  Undefined index: cpid in /home/bluedentindia/public_html/addcart.php on line 7
+[21-Dec-2017 16:53:01 UTC] PHP Notice:  Undefined index: cqnty in /home/bluedentindia/public_html/addcart.php on line 8
+[21-Dec-2017 16:56:05 UTC] PHP Notice:  Undefined index: cpid in /home/bluedentindia/public_html/updatecart.php on line 8
+[21-Dec-2017 16:56:05 UTC] PHP Notice:  Undefined index: cqnty in /home/bluedentindia/public_html/updatecart.php on line 9
+[21-Dec-2017 16:56:05 UTC] PHP Notice:  Undefined index: cart in /home/bluedentindia/public_html/cart.php on line 30
+[27-Dec-2017 11:31:40 UTC] PHP Warning:  simplexml_load_file(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bluedentindia/public_html/index.php on line 225
+[27-Dec-2017 11:31:40 UTC] PHP Warning:  simplexml_load_file(http://www.bluedentindia.inxml/about.xml): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bluedentindia/public_html/index.php on line 225
+[27-Dec-2017 11:31:40 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://www.bluedentindia.inxml/about.xml&quot; in /home/bluedentindia/public_html/index.php on line 225
+[27-Dec-2017 11:31:40 UTC] PHP Notice:  Trying to get property of non-object in /home/bluedentindia/public_html/index.php on line 226
+[27-Dec-2017 11:31:40 UTC] PHP Notice:  Trying to get property of non-object in /home/bluedentindia/public_html/index.php on line 227
+[27-Dec-2017 11:31:40 UTC] PHP Notice:  Trying to get property of non-object in /home/bluedentindia/public_html/index.php on line 228
+[27-Dec-2017 11:32:28 UTC] PHP Warning:  simplexml_load_file(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bluedentindia/public_html/index.php on line 225
+[27-Dec-2017 11:32:28 UTC] PHP Warning:  simplexml_load_file(http://www.bluedentindia.inxml/about.xml): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bluedentindia/public_html/index.php on line 225
+[27-Dec-2017 11:32:28 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://www.bluedentindia.inxml/about.xml&quot; in /home/bluedentindia/public_html/index.php on line 225
+[27-Dec-2017 11:32:28 UTC] PHP Notice:  Trying to get property of non-object in /home/bluedentindia/public_html/index.php on line 226
+[27-Dec-2017 11:32:28 UTC] PHP Notice:  Trying to get property of non-object in /home/bluedentindia/public_html/index.php on line 227
+[27-Dec-2017 11:32:28 UTC] PHP Notice:  Trying to get property of non-object in /home/bluedentindia/public_html/index.php on line 228
+[27-Dec-2017 11:33:23 UTC] PHP Warning:  simplexml_load_file(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bluedentindia/public_html/index.php on line 225
+[27-Dec-2017 11:33:23 UTC] PHP Warning:  simplexml_load_file(http://www.bluedentindia.inxml/about.xml): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bluedentindia/public_html/index.php on line 225
+[27-Dec-2017 11:33:23 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://www.bluedentindia.inxml/about.xml&quot; in /home/bluedentindia/public_html/index.php on line 225
+[27-Dec-2017 11:33:23 UTC] PHP Notice:  Trying to get property of non-object in /home/bluedentindia/public_html/index.php on line 226
+[27-Dec-2017 11:33:23 UTC] PHP Notice:  Trying to get property of non-object in /home/bluedentindia/public_html/index.php on line 227
+[27-Dec-2017 11:33:23 UTC] PHP Notice:  Trying to get property of non-object in /home/bluedentindia/public_html/index.php on line 228

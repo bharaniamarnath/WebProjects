@@ -1,0 +1,46 @@
+-- BLUEDENT INDIA --
+
+----------------------------------------------------------------------------
+
+- Updated Files -
+
+- Jul 21, 2014 -
+
+- Main Folder -
+
+enquiry.php
+
+order.php
+
+css/style.css
+
+----------------------------------------------------------------------------
+
+-- Links to be updated in the below listed files before uploading to host --
+
+- Main Folder -
+
+uploadfile.php - Replace "cpanel/" to "http://admin.bluedentindia.in/"
+
+addgallery.php - Replace "cpanel/" to "http://admin.bluedentindia.in/"
+
+addproduct.php - Replace "cpanel/" to "http://admin.bluedentindia.in/"
+
+deletefile.php - Replace "cpanel/" to "http://admin.bluedentindia.in/"
+
+deleteimage.php - Replace "cpanel/" to "http://admin.bluedentindia.in/"
+
+deleteproduct.php - Replace "cpanel/" to "http://admin.bluedentindia.in/"
+
+updateproduct.php - Replace "cpanel/" to "http://admin.bluedentindia.in/"
+
+- CPanel Folder - 
+
+addfiles.php  - Replace "../" to "http://www.bluedentindia.in/"
+
+editlist.php  - Replace "../" to "http://www.bluedentindia.in/"
+
+editproduct.php  - Replace "../" to "http://www.bluedentindia.in/"
+
+newproduct.php  - Replace "../" to "http://www.bluedentindia.in/"
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<management>
+<directors>
+<director>
+<name>Dr.V. Ramadoss</name>
+<role>Director</role>
+<recognition>African Entrepreneur of the year 2011</recognition>
+</director>
+<director>
+<name>Dr.Julia Dasan Ramadoss</name>
+<role>Director</role>
+</director>
+</directors>
+<managers>
+<manager>
+<name>Mr.Shibu Samuel</name>
+<qualification> B.Pharm, MBA</qualification>
+<hpc>HPC14/0212</hpc>
+<role>General Manager &amp; Pharmacist</role>
+</manager>
+</managers>
+<pharmacists>
+<pharmacist>
+<name>Mrs.Sherin Varghese</name>
+<qualification> B.Pharm</qualification>
+<hpc>HPC14/0208</hpc>
+<role>Pharmacist</role>
+</pharmacist>
+</pharmacists>
+<executives>
+<executive>
+<name>Mr.G.Manikandan</name>
+<role>Sales Executive</role>
+</executive>
+<executive>
+<name>Mr.Neddy Michel Marie</name>
+<role>Sales Executive</role>
+</executive>
+<executive>
+<name>Mrs.Myre Jean Bapiste</name>
+<role>Sales Executive</role>
+</executive>
+<executive>
+<name>Mrs.Juliette Tiffany Vidot</name>
+<role>Sales Executive</role>
+</executive>
+</executives>
+</management>

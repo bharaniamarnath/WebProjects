@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+<service>
+<title>Vaccination</title>
+<icon>vaccination.png</icon>
+<content>
+Vaccination is the administration of antigenic material to stimulate an individual's immune system to develop adaptive immunity to a pathogen. Vaccines can prevent or ameliorate morbidity from infection. Our pharmaceuticals provides effective vaccination products for all types of cure.
+</content>
+</service>
+<service>
+<title>Monitoring Devices</title>
+<icon>monitoring.png</icon>
+<content>
+Medical monitoring devices are some of the most important pieces of equipment in a health care facility. Without reliable monitoring equipment you could easily miss a piece of information. We procure high quality monitoring devices for any problems from branded dealers.
+</content>
+</service>
+<service>
+<title>Surgical Instruments</title>
+<icon>surgical.png</icon>
+<content>
+Surgical instruments are tools or devices that perform such functions as cutting, dissecting, grasping, holding, retracting, or suturing. Most surgical instruments are made from stainless steel. Other metals, such as titanium, chromium, vanadium, and molybdenum, are also used. Our pharmaceuticals dispenses exquisite surgical equipments for safe and quality surgery.
+</content>
+</service>
+<service>
+<title>Medical Rehab</title>
+<icon>rehab.png</icon>
+<content>
+Physical medicine and rehabilitation (PM&amp;R), also known as physiatry or rehabilitation medicine, is a branch of medicine that aims to enhance and restore functional ability and quality of life to those with physical impairments or disabilities. All kinds of medicines, equipments and facilities for medical rehab are available with our pharmaceuticals.
+</content>
+</service>
+<service>
+<title>Orthopedic Products</title>
+<icon>orthopedic.png</icon>
+<content>
+A branch of medicine concerned with the correction or prevention of deformities, disorders, or injuries of the skeleton and associated structures (as tendons and ligaments). We provide high quality and effective orthopedic products from well branded dealers.
+</content>
+</service>
+</services>
