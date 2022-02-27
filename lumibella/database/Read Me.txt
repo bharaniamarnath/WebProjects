@@ -1,0 +1,36 @@
+MEDSILO PHARMACEUTICALS PRIVATE LIMITED
+
+Website URL
+----------------------------------------------
+www.medsilo.co.in
+
+Host Details
+----------------------------------------------
+Host: Hostgator
+Account Username: -
+Account Password: -
+
+SQL Login Details
+----------------------------------------------
+Username: -
+Password: -
+
+SQL Database Details
+----------------------------------------------
+Host: - localhost
+Database: - learns84_medsilo
+Username: - learns84_medsilo
+Password: - medsilo@14
+
+FTP Client Details
+----------------------------------------------
+Application: FileZilla FTP
+Host: - medsilo.co.in
+Username: - medsilo@goozils.com
+Password: - medsilo@14
+
+Versions
+----------------------------------------------
+Application: XAMPP
+PHP Version: 5.4
+MySQL: 5.5
