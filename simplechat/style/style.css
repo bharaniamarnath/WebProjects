@@ -1,0 +1,17 @@
+#ChatBig{
+width: 500px;
+height: 450px;
+border: 1px solid #ccc;
+}
+#ChatMessages{
+width: 498px;
+height: 398px;
+}
+#ChatText{
+width: 498px;
+height: 48px;
+border: 1px solid #ccc;
+}
+#ChatText:focus{
+outline: none;
+}
