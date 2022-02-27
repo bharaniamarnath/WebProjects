@@ -1,0 +1,117 @@
+<?php
+session_start();
+include('includes/header.php');
+include('includes/connect.php');
+include('includes/alerts.php');
+if(!isset($_SESSION['user'])){
+echo $logdenyalert;
+}
+$suid = $_SESSION['user'];	
+include "includes/class.info.php";
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Baffoons - Image Upload</title>
+<meta http-equiv="refresh" content="300">
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="stylesheet" type="text/css" href="css/menu.css" />
+<link rel="stylesheet" type="text/css" href="css/submenu.css" />
+
+</head>
+<body>
+<div id="container">
+<div id="leftpane">
+<div class="dashboard"><div id="profileimage"><?php echo "<a href='profile.php'><img src='$thumbloc' id='profilecrop' /></a>"; ?></div><h2><?php echo $fname . ' ' . $lname; ?></h2><?php echo $usrnme; ?><br /><?php echo $mail; ?></div>
+<div id="menubar">
+<div id="holder">
+<ul>
+<li><a href="main.php">Home</a></li>
+<li><a href="profile.php">Profile</a></li>
+<li><a href="friends.php">Friends</a></li>
+<li><a id="onlink" href="photos.php">Photos</a></li>
+<li><a href="inbox.php">Messages</a></li>
+<li><a href="groups.php">Groups</a></li>
+</ul>		
+</div>
+</div>
+</div>
+<div id="rightpane">
+<div class="postboard">
+<div id="submenubar">
+<div id="holder">
+<ul>
+<li><a href="photos.php">Private Photos</a></li>
+<li><a id="onlink" href="publicphotos.php">Public Photos</a></li>
+<li><a href="uploadphotos.php">Upload Photos</a></li>
+</ul>		
+</div>
+</div>
+<div class="messageboard">
+<?php
+$perpage = 20;
+$msg = $pdo->prepare("SELECT * FROM publicphotos");
+$msg->execute();
+$msgcount = $msg->rowCount();
+$pages = ceil(($msgcount) / $perpage);
+$page = (isset($_GET['page'])) ? (int)$_GET['page'] : 1;
+$start = ($page - 1) * $perpage;
+$photores = $pdo->prepare("SELECT * FROM publicphotos ORDER BY Date DESC LIMIT $start, $perpage");
+$photores->execute();
+if($photores->rowCount()==0){
+echo $nophotosalert;
+}
+while($phrow = $photores->fetch()){
+$phuid = $phrow['ID'];
+$phunme = $phrow['UserID'];
+$phimg = $phrow['Photo'];
+$phthumb = $phrow['Thumb'];
+$phname = $phrow['Filename'];
+$phdate = $phrow['Date'];
+$phdes = $phrow['Description'];
+echo "<table class='photos'>";
+echo "<tr>";
+echo "<td>";
+echo "<a href='publicphotoview.php?photoid=$phuid'><div id='photoblock'><img src='$phthumb' id='photoimage'></img></div></a>";
+echo "</td>";
+echo "</tr>";
+echo "</table>";
+}
+?>
+<div style="display: block; clear: both;"></div>
+<?php
+echo "<div id='pagenumbers'>";
+if($pages>=1 && $page<=$pages){
+for($x = 1; $x <= $pages ; $x++){
+echo ($x == $page) ? "<a id='selected' href='?page=$x'>$x</a> " : "<a id='notselected' href='?page=$x'>$x</a> ";	
+}
+}
+echo "</div>";
+?>
+</div><input type='button' onClick=parent.location='uploadpublicphotos.php' value='Upload Public Photos' style="margin-bottom: 20px;"></input><input type='button' onClick=parent.location='mypublicphotos.php' value='My Public Photos' style="margin-bottom: 20px;"></input><br />
+</div>
+</div>
+
+<div id="notification">
+<h5>Random Photos</h5>
+<?php
+$randpp = $pdo->prepare("SELECT * FROM publicphotos ORDER BY RAND() LIMIT 6");
+$randpp->execute();
+if($randpp->rowCount() == 0){
+echo "<p>No photos available</p>";
+}
+while($pprow = $randpp->fetch()){
+$rppid = $pprow['ID'];
+$rppthumb = $pprow['Thumb'];
+$rppimg = $pprow['Photo'];
+echo "<a href='publicphotoview.php?photoid=$rppid'><div id='rpcrop'><img src='$rppthumb' id='randompics' /></a></div>";
+}
+?>
+</div>
+
+
+
+<div class="footlink"><a href="terms.php" class="terms">Terms &amp; Conditions</a> . <a href="about.php" class="terms">About Baffoons</a> . <a href="feedback.php" class="terms">Feedback</a></div>
+<div id="footer">&copy;Copyrights 2013. Baffoons Network.</div>
+</body>
+</html>

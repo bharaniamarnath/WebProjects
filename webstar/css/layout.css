@@ -1,0 +1,1131 @@
+body{
+background-color:#fff;
+width: auto;
+margin: 0;
+}
+.header{
+height: 50px;
+background:#000;
+position: relative;
+z-index: 998;
+width: 100%;
+}
+.header img{
+margin-left: 10px;
+width: 150px;
+height: 50px;
+float: left;
+}
+.indexheader{
+height: 50px;
+background:#000;
+margin-bottom: 20px;
+}
+.indexheader img{
+margin-top: -20px;
+margin-left: 10px;
+width: 150px;
+height: 50px;
+}
+#inwidth{
+max-width: 1000px;
+min-width: 1000px;
+margin: 0 auto;
+}
+#indexpage{
+margin-left: 20px;
+margin-right: 20px;
+}
+table.regform{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+margin-left: 30px;
+width: 450px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#container{
+max-width: 1000px;
+margin: 0 auto;
+}
+#mailbody{
+height: 150px;
+}
+table.inbox{
+width: 485px;
+border: 1px solid #ccc;
+}
+table.inbox th{
+text-align: left;
+padding: 10px;
+background-color: #000;
+color: #fff;
+}
+table.inbox td{
+font-size: 12px;
+padding-left: 5px;
+}
+table.inbox tr{
+border-bottom: 1px solid #ccc;
+}
+#leftpane{
+width: 250px;
+height: 320px;
+float: left;
+}
+#rightpane{
+float: left;
+padding-left: 10px;
+width: 500px;
+position: relative;
+}
+.dashboard h2{ 
+font-size: 13px;
+}
+.searchbar{
+float: right;
+padding-top: 5px;
+margin-right: 430px;
+}
+.searchbar input[type="text"]{
+width: 250px;
+}
+td.regform{
+padding-bottom: 10px;
+padding-right: 20px;
+width: 100px;
+}
+td.regform textarea{
+width: 250px;
+}
+#browsefile{
+width: 250px;
+overflow: hidden;
+}
+#signin{
+float: right;
+margin-top: -5px;
+margin-right: 20px;
+}
+#signin input[type="text"]{
+width: 150px;
+margin-right: 10px;
+}
+#signin label{
+color: #fff;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+padding-right: 5px;
+}
+#signin a{
+color: #fff;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+padding-right: 5px;
+}
+h2#activityheading{
+margin-bottom: 20px;
+font-size: 16px;
+}
+select{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+}
+input[type="text"], input[type="password"]{
+width: 168px;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+}
+textarea{
+width: 150px;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+}
+input[type="submit"]
+{
+background:#000;
+padding: 3px;
+color:#fff;
+font-family:'Helvetica Neue',sans-serif;
+font-size:11px;
+font-weight: bold;
+border: 1px solid #666;
+}
+input[type="file"]
+{
+background-color:#fff;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+padding: 6px 10px 6px 10px; 
+background-color: #eee;
+clip: rect(0 265px 22px 155px);
+outline: none;
+}
+input[type="button"]
+{
+background:#000;
+padding: 3px;
+color:#fff;
+font-family:'Helvetica Neue',sans-serif;
+font-size:11px;
+font-weight: bold;
+float: right;
+margin-right: 10px;
+border: 1px solid #666;
+}
+hr{
+color:#000;
+}
+h1{
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+color: #ffffff;
+}
+h2,h3,h4,h5{
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+color: #000;
+padding: 0px;
+margin: 0px;
+}
+a.linkpage{
+text-decoration: none;
+font-size: 11px;
+color:#000;
+}
+a.linkpage:hover
+{
+color:#000;
+}
+#footer{
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+font-size: 10px;
+color:#000;
+position: relative;
+float: left;
+margin: 10px;
+clear: both;
+}
+.alert{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 12px;
+background-color: #fff;
+padding: 10px;
+padding-top: 15px;
+background-color: #eee;
+position: relative;
+float: left;
+width: 450px;
+z-index: 1000;
+}
+.alert img{
+margin-top: -7px;
+}
+#alertbutton{
+position: relative;
+margin-top: 60px;
+}
+.dashboard{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+background:#fff;
+padding-left: 10px;
+width: 238px;
+height: 80px;
+padding-top: 20px;
+border-right: 1px solid #eee;
+border-left: 1px solid #ddd;
+position: relative;
+}
+#asubhead{
+font-size: 13px;
+background-color: #eee;
+padding: 10px;
+float: left;
+width: 450px;
+}
+#controlmenu{
+float: left;
+position: fixed;
+margin-left: 905px;
+margin-top: 40px;
+z-index: 1000;
+width: 75px;
+display: none;
+overflow-y: hidden;
+}
+#menuslider{
+float: right;
+position: fixed;
+margin-left: 905px;
+margin-top: 10px;
+z-index: 1000;
+}
+#controlmenu input[type="button"]{
+margin-right: 0px;
+margin-left: 0px;
+float: left;
+width: 75px;
+height: 30px;
+cursor: pointer;
+border-top: none;
+}
+#controlmenu input[type="button"]:hover{
+background: #666;
+}
+.mainboard{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+background-color: #ffffff;
+padding: 30px;
+border: 1px solid #ccc;
+border-top: none;
+line-height: 20px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.activityboard{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+padding: 30px;
+border: 1px solid #ccc;
+line-height: 20px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.postboard{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+background-color: #ffffff;
+width: 500px;
+}
+.messageboard{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+margin-top: 20px;
+position: relative;
+width: 470px;
+height: 150px;
+float: left;
+margin-bottom: 20px;
+padding: 5px;
+border-bottom: 1px solid #ccc;
+display: table;
+}
+.messageboard textarea{
+width: 350px;
+height: 75px;
+}
+.videoboard{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+margin-top: 20px;
+position: relative;
+width: 470px;
+height: 150px;
+float: left;
+margin-bottom: 20px;
+padding: 5px;
+border-bottom: 1px solid #ccc;
+display: none;
+}
+.videoboard textarea{
+width: 350px;
+height: 75px;
+}
+.imageboard{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+margin-top: 20px;
+position: relative;
+width: 470px;
+height: 150px;
+float: left;
+margin-bottom: 20px;
+padding: 5px;
+border-bottom: 1px solid #ccc;
+display: none;
+}
+#postbutton{
+margin-left: 310px;
+margin-top: 5px;
+}
+.postbox{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+padding: 0px 20px 20px 10px;
+width: 450px;
+float: left;
+border-bottom: 1px solid #ccc;
+line-height: 20px;
+margin-bottom: 10px;
+}
+.mailbox{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+padding: 0px 20px 20px 10px;
+width: 460px;
+float: left;
+border-bottom: 1px solid #ccc;
+line-height: 20px;
+margin-bottom: 10px;
+}
+.photobox{
+margin-right: 10px;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 12px;
+font-weight: bold;
+background:#fff;
+margin-bottom: 10px;
+float: left;
+width: 400px;
+}
+.picscreen{
+width: 450px;
+}
+.mailbox{
+width: 450px;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 12px;
+font-weight: bold;
+background:#fff;
+padding: 10px 20px 20px 10px;
+border: 1px solid #ccc;
+line-height: 15px;
+margin-bottom: 20px;
+}
+.termbox{
+width: auto;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+background:#fff;
+padding: 20px 20px 20px 20px;
+border: 1px solid #000;
+line-height: 20px;
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+#profileimage{
+width:50px; 
+height:50px; 
+overflow:hidden;
+float: left;
+margin-right: 20px;
+}
+#profileimg{
+width:100px; 
+float: left;
+margin-right: 10px;
+}
+#profileimgcrop{
+position:relative; 
+width: 100px;
+}
+#profilecrop{
+position:relative; 
+width: 50px;
+}
+#activityimage{
+width:150px; 
+float: left;
+border: 1px solid #eee;
+padding: 3px;
+}
+#profilehead{
+padding-bottom: 20px;
+vertical-align: middle;
+padding-left: 5px;
+font-size: 14px;
+padding-top: 10px;
+}
+#profilehead h2{
+line-height: 24px;
+}
+#profilecover{
+background: #eee;
+width: 450px;
+height: 130px;
+position: absolute;
+z-index: -1000;
+overflow: hidden;
+}
+#profilecover img{
+width: 450px;
+opacity: 0.2;
+margin-top: -65px;
+}
+#vfbutton{
+margin-bottom: 10px;
+}
+.proform table{
+padding: 20px;
+padding-right: 50px;
+margin-bottom: 10px;
+}
+.proform td{
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+color: #000;
+font-size: 12px;
+width: 150px;
+vertical-align: top;
+line-height: 18px;
+}
+#postgroup{
+margin-top: 10px;
+padding-top: 20px;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+#postvideogroup{
+margin-top: 10px;
+padding-top: 20px;
+border-top: 1px solid #ccc;
+display: none;
+border-bottom: 1px solid #ccc;
+}
+#postimagegroup{
+margin-top: 10px;
+padding-top: 20px;
+padding-bottom: 50px;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+display: none;
+}
+th{
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+color: #000;
+font-size: 13px;
+text-align: left;
+padding-top: 20px;
+}
+.proform th{
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+color: #666;
+font-size: 13px;
+text-align: left;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#aboutme{
+background-color: #eee;
+padding: 20px;
+line-height: 18px;
+}
+#aboutgrp{
+background-color: #eee;
+padding: 50px;
+line-height: 18px;
+}
+#aboutpic{
+background-color: #eee;
+padding: 15px;
+line-height: 18px;
+font-size: 12px;
+}
+td.pdform{
+font-family: 'Helvetica Neue',sans-serif;
+color: #666;
+font-size: 12px;
+line-height: 20px;
+vertical-align: top;
+}
+textarea{
+width: 500px;
+height: 90px;
+padding: 2px;
+resize: none;
+}
+p{
+margin-left: 0px;
+margin-top: 0px;
+}
+#postimg{
+width:60px; 
+height:40px; 
+overflow:hidden;
+float: left;
+padding: 10px 0px 10px 0px;
+margin-bottom: 20px;
+margin-top: 10px;
+margin-right: 10px;
+}
+#postmessage{
+font-weight: normal;
+}
+#postmessage img{
+width: 400px;
+border: 1px solid #eee;
+padding: 3px;
+}
+#thumbimgcrop{
+position:relative; 
+width: 50px;
+margin-right: 10px;
+border: 1px solid #eee;
+}
+#posttime{
+color:#000;
+font-size: 10px;
+text-align: right;
+padding-top: 10px;
+}
+#postdelete{
+float: right;
+padding: 4px;
+margin-top: 20px;
+}
+#report{
+float: right;
+padding: 4px;
+margin-right: 5px;
+margin-top: 9px;
+}
+.friendbox{
+font-weight: bold;
+background:#fff;
+padding: 10px;
+border-bottom: 1px solid #ccc;
+width: 450px;
+height: 75px;
+}
+.friendbox p{
+font-size: 12px;
+font-family: 'Helvetica Neue',sans-serif;
+line-height: 18px;
+}
+.friendbox input[type="submit"]{
+float: right;
+margin-right: 5px;
+} 
+.groupbox{
+font-weight: bold;
+background:#fff;
+padding: 10px;
+border-bottom: 1px solid #ccc;
+width: 450px;
+padding-bottom: 20px;
+overflow: hidden;
+}
+.groupbox p{
+font-size: 12px;
+font-family: 'Helvetica Neue',sans-serif;
+line-height: 18px;
+}
+.groupbox input[type="submit"]{
+float: right;
+margin-right: 5px;
+} 
+table.photos{
+width: 110px;
+margin-right: 5px;
+padding: 5px;
+float: left;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 12px;
+font-weight: bold;
+background:#fff;
+margin-bottom: 5px;
+}
+table.photos input[type="submit"]{
+width: 50px;
+background: #eee;
+color: #000;
+border: 1px solid #ddd;
+}
+#photoblock{
+width: 100px;
+height: 100px;
+overflow: hidden;
+border: 4px solid #eee;
+position: relative;
+background: #eee;
+}
+#photoimage{
+width:100px; 
+float: left;
+top: 0;
+bottom: 0;
+margin: auto;
+position: absolute;
+}
+td.tphoto{
+vertical-align: top;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+padding: 10px;
+width: 65%;
+}
+#photobutton{
+float: left;
+padding: 4px 5px 4px 5px;
+font-size: 11px;
+font-weight: bold;
+margin-top: 5px;
+margin-right: 5px;
+}
+
+td.picedit{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 12px;
+font-weight: bold;
+padding-bottom: 10px;
+}
+td.piceditdetail{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+table.photoedit{
+float: left;
+}
+#photoedit{
+margin-left: 0px;
+}
+#photoviewbutton{
+margin-left: -55px;
+}
+#photoviewback{
+margin-left: -43px;
+}
+#ppbutton{
+margin: 0px;
+margin-right: 5px;
+}
+#ppvbutton{
+float: right;
+margin-left: -5px;
+}
+#sendbutton{
+float: right;
+padding: 4px;
+margin-right: 5px;
+}
+#ibbutton{
+float: left;
+padding: 4px;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+td.mail
+{
+font-size: 12px;
+font-weight: bold;
+font-family: 'Helvetica Neue',sans-serif;
+padding: 10px;
+width: 120px;
+margin-top: 4px;
+color: #000;
+}
+td.mailtitle{
+background: #000;
+color: #fff;
+padding: 5px 10px;
+}
+td.mailmessage
+{
+font-size: 12px;
+font-weight: bold;
+font-family: 'Helvetica Neue',sans-serif;
+padding: 10px;
+width: 120px;
+margin-top: 4px;
+color: #000;
+}
+a.terms{
+text-decoration: none;
+font-family: 'Helvetica Neue',sans-serif;
+color: #000;
+font-weight: bold;
+font-size: 11px;
+}
+a.terms:hover{
+color: #000;
+}
+.footlink{
+border-top: 1px solid #ccc;
+padding-top: 10px;
+text-align: center;
+clear: both;
+}
+#postmessages{
+float: left;
+position: relative;
+width: 500px;
+}
+.votes{
+vertical-align: middle;
+font-size: 11px;
+color: #000;
+font-weight: bold;
+float: right;
+clear: both;
+margin-right: 0px;
+}
+td.event{
+font-size: 12px;
+font-weight: bold;
+font-family: 'Helvetica Neue',sans-serif;
+padding: 10px;
+width: 100px;
+line-height: 20px;
+}
+table.calendar{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+background:#eee;
+padding: 15px;
+line-height: 20px;
+margin-bottom: 10px;
+width: 450px;
+}
+table.calendar h3{
+margin-bottom: 5px;
+font-size: 16px;
+}
+td.eventlist{
+color: #666; 
+width: 100px;
+font-size: 12px;
+}
+td.activitybox{
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 12px;
+font-weight: bold;
+padding: 20px;
+border-top: 1px solid #eee;
+}
+table.activity{
+width: 400px;
+height: 100px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+#activitybutton{
+margin-top: 20px;
+float: left;
+}
+a#selected{
+background:#000;
+color: #fff;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 11px;
+font-weight: bold;
+text-decoration: none;
+padding: 3px 6px 3px 6px;
+margin-right: 3px;
+border: 1px solid #000;
+}
+a#notselected{
+background: #fff;
+color: #000;
+border: 1px solid #000;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 10px;
+font-weight: bold;
+text-decoration: none;
+padding: 3px 6px 3px 6px;
+margin-right: 3px;
+}
+#pagenumbers{
+position: relative;
+float: right;
+margin: 20px;
+}
+
+#menuicon{
+background-image: url('../images/menu.png');
+width: 75px;
+height: 30px;
+background-repeat: no-repeat;
+cursor: pointer;
+}
+
+#photodeleteicon{
+background-image: url('../images/delete.png');
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+cursor: pointer;
+border: none;
+}
+#photoediticon{
+background-image: url('../images/edit.png');
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+cursor: pointer;
+border: none;
+}
+table.photos input[type="submit"]{
+margin-right: 1px;
+margin-left: 1px;
+float: left;
+}
+table.inbox input[type="submit"]{
+float: left;
+margin-left: 3px;
+margin-bottom: 10px;
+border: none;
+}
+#backinbox{
+padding: 4px;
+}
+.groupbox a{
+float: right;
+background: #000;
+text-decoration: none;
+color: #fff;
+padding: 5px;
+}
+#notification{
+width: 230px;
+border: 1px solid #ccc;
+float: right;
+margin-right: 5px;
+margin-bottom: 10px;
+}
+#groupbox{
+width: 230px;
+border: 1px solid #ccc;
+float: right;
+margin-right: 5px;
+margin-bottom: 10px;
+}
+#notification h5{
+padding-bottom: 10px;
+font-size: 13px;
+padding: 10px;
+text-align: center;
+background-color: #000;
+color: #fff;
+}
+#groupbox h5{
+padding-bottom: 10px;
+font-size: 13px;
+padding: 10px;
+text-align: center;
+background-color: #000;
+color: #fff;
+}
+#notification p{
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+color: #000;
+font-size: 13px;
+margin: 0px;
+padding: 10px 20px 0px 20px;
+margin-bottom: 10px;
+}
+#groupbox p{
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+color: #000;
+font-size: 13px;
+margin: 0px;
+padding: 10px 20px 0px 20px;
+
+}
+#rpun{
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+color: #000;
+font-size: 12px;
+}
+table.rpeople{
+border-top: 1px solid #eee;
+width: 230px;
+}
+table.rgroups{
+border-top: 1px solid #eee;
+width: 230px;
+}
+table.rgroups td{
+vertical-align: top;
+}
+table.rgroups font{
+font-size: 11px;
+font-family: 'Helvetica Neue',sans-serif;
+padding: 5px 20px;
+}
+td#rgimage{
+width: 50px;
+border: 1px solid #eee;
+}
+#addbdf{
+margin: 5px 20px;
+margin-top: -10px;
+}
+#bdbox{
+border-bottom: 1px solid #ccc;
+position: relative;
+border-bottom: none; 
+padding-bottom: 20px; 
+margin-top: 30px;
+}
+#addmbdf{
+float: left;
+margin-left: 20px;
+margin-top: -20px;
+}
+#randompeople{
+width:50px; 
+height:50px; 
+overflow:hidden;
+float: left;
+margin-right: 15px;
+}
+#randomgrp{
+width:50px; 
+height:50px; 
+overflow:hidden;
+float: left;
+}
+#randompics{
+position:relative; 
+}
+#rpcrop{
+width: 65px;
+height: 65px;
+overflow-x: hidden;
+overflow-y: hidden;
+float: left;
+padding: 0px 5px;
+margin: 5px 0px;
+}
+#addrpf{
+margin-right: 2px;
+float: right;
+}
+#rglink{
+text-decoration: none;
+}
+#notification h4{
+background-color: #eee;
+color: #000;
+font-size: 13px;
+font-weight: bold;
+text-align: center;
+padding: 10px;
+}
+#redate{
+font-size: 10px;
+font-family: 'Helvetica Neue',sans-serif;
+padding-right: 5px;
+}
+table.rmails{
+font-size: 12px;
+font-family: 'Helvetica Neue',sans-serif;
+padding: 10px;
+border-top: 1px solid #eee;
+width: 230px;
+}
+/* chat */
+#ChatBig{
+width: 500px;
+height: 350px;
+}
+#ChatMessages{
+width: 498px;
+height: 300px;
+overflow-y: scroll;
+background: #e6e6e6;
+}
+#ChatText{
+width: 500px;
+height: 50px;
+border: none;
+border-top: 1px solid #000;
+}
+#ChatText:focus{
+outline: none;
+}
+#chatwindow h3{
+background-color: #000;
+padding: 10px;
+color: #fff;
+width: 480px;
+}
+#chatwindow{
+width: 500px;
+height: 390px;
+margin-left: 10px;
+border: 1px solid #000;
+margin-bottom: 20px;
+}
+#chatbox{
+background-color: #eee;
+padding: 10px;
+margin: 2px 0px;
+}
+#chatbox p{
+margin-bottom: -10px;
+font-size: 12px;
+}
+#chatbox font{
+font-weight: normal;
+}
+#chatbox img{
+float: left;
+width: 35px;
+height: 35px;
+margin-right: 5px;
+}
+#postoptions{
+float: right;
+position: absolute;
+top: 180px;
+left: 15px;
+z-index: 1000;
+}
+#postoptions input[type="button"]{
+margin-right: 0px;
+background: #eee;
+color: #000;
+border: 1px solid #ddd;
+}
+#postgroupoptions{
+float: right;
+position: absolute;
+top: 492px;
+left: 6px;
+z-index: 1000;
+}
+#postgroupoptions input[type="button"]{
+margin-right: 0px;
+background: #eee;
+color: #000;
+border: 1px solid #ddd;
+}
+iframe{
+border: none;
+}
+.postbox h4{
+font-size: 12px;
+}
+#grpbutton input[type="submit"]{
+float: right;
+margin-top: 90px;
+margin-right: 30px;
+}
+#profilehead font{
+font-weight: normal;
+font-size: 11px;
+}

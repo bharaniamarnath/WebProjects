@@ -1,0 +1,28 @@
+#submenubar #holder {
+}
+#submenubar #holder ul{
+list-style: none;
+padding-left: 0px;
+}
+#submenubar #holder ul li a{
+text-decoration: none;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 12px;
+font-weight: bold;
+padding: 10px;
+color: #000;
+text-align: center;
+display: block;
+background:#fff;
+float: left;
+margin-left: 10px;
+border: 1px solid #eee;
+}
+#submenubar #holder ul li a:hover{
+background:#ccc;
+color: #000;
+}
+#submenubar #holder ul li a#onlink{
+background: #000;
+color: #fff;
+}

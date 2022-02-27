@@ -1,0 +1,31 @@
+#menubar #holder {
+border-right: 1px solid #eee;
+border-bottom: 1px solid #eee;
+border-top: 1px solid #eee;
+border-left: 1px solid #ddd;
+}
+#menubar #holder ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#menubar #holder ul li a{
+text-decoration: none;
+font-family: 'Helvetica Neue',sans-serif;
+font-size: 12px;
+font-weight: bold;
+padding: 10px;
+color: #000;
+text-align: left;
+display: block;
+background:#fff;
+width: 228px;
+}
+#menubar #holder ul li a:hover{
+background:#ccc;
+color: #000;
+}
+#menubar #holder ul li a#onlink{
+background: #000;
+color: #fff;
+}
