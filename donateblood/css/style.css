@@ -1,0 +1,170 @@
+@font-face {
+font-family: 'calibri';
+src: url('../fonts/calibri-webfont.eot');
+src: url('../fonts/calibri-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/calibri-webfont.woff') format('woff'),
+url('../fonts/calibri-webfont.ttf')  format('truetype'),
+url('../fonts/calibri-webfont.svg#svgFontName') format('svg');
+}
+@font-face {
+font-family: 'ubuntu';
+src: url('../fonts/Ubuntu-Regular.eot');
+src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Ubuntu-Regular.woff') format('woff'),
+url('../fonts/Ubuntu-Regular.ttf')  format('truetype'),
+url('../fonts/Ubuntu-Regular.svg#svgFontName') format('svg');
+}
+body{
+font-family: ubuntu;
+background-color: #ffffff;
+padding-bottom: 20px;
+}
+header{
+background-color: #ff0000;
+padding: 20px;
+}
+header h1{
+color: #fff;
+font-weight: bold;
+}
+
+.btn-primary{
+background-color: #ff0000;
+border: none;
+}
+.btn-primary:hover{
+background-color: #b20000;
+border: none;
+}
+a{
+color: #ff0000;
+}
+a:hover{
+color: #b20000;
+text-decoration: none;
+}
+h2{
+color: #ff0000;
+padding-bottom: 15px;
+border-bottom: 1px solid #ff0000;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+border-color: #ccc;
+box-shadow: none;
+}
+select:focus, select:active, option{
+border: none;
+box-shadow: none;
+}
+option:hover{
+background-color: #ff0000;
+}
+
+/* NAVBAR BEGIN */
+
+.navbar-default {
+background: #ff0000;
+border:none;
+font-size: 1.10em;
+margin: 0px auto;
+border-top: 1px solid #ffffff;
+}
+.navbar-default .navbar-brand {
+color: #fff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+color: #fff;
+}
+.navbar-default .navbar-text {
+color: #fff;
+}
+.navbar-default .navbar-nav > li{
+border-right: 1px solid #fff;
+}
+.navbar-default .navbar-nav > li > a {
+color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #fff;
+background-color: #b20000;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: #fff;
+background-color: #0e88ad;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #fff;
+background-color: #0e88ad;
+}
+.navbar-default .navbar-toggle {
+border-color: #0e88ad;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #0e88ad;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+border-color: #0e88ad;
+}
+.navbar-default .navbar-link {
+color: #fff;
+}
+.navbar-default .navbar-link:hover {
+color: #fff;
+}
+
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+color: #fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+color: #fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+color: #fff;
+background-color: #0e88ad;
+}
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu{
+background: #1BAFDD;
+background-image: -moz-linear-gradient(bottom, #1BAFDD 0%, #0E88AD 100%);
+background-image: -o-linear-gradient(bottom, #1BAFDD 0%, #0E88AD 100%);
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1BAFDD), color-stop(1, #0E88AD));
+background-image: -webkit-linear-gradient(bottom, #1BAFDD 0%, #0E88AD 100%);
+}
+.navbar .navbar-nav .dropdown .dropdown-menu > li > a{
+color: #fff;
+font-size: 1.15em;
+padding: 5px 20px;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu > li > a:hover{
+background-color: #0e88ad;
+background-image: -moz-linear-gradient(bottom, #0E88AD 0%, #1BAFDD 100%);
+background-image: -o-linear-gradient(bottom, #0E88AD 0%, #1BAFDD 100%);
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0E88AD), color-stop(1, #1BAFDD));
+background-image: -webkit-linear-gradient(bottom, #0E88AD 0%, #1BAFDD 100%);
+color: #fff;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+.navbar-input-group {
+font-size: 0px; /*removes whitespace between button and input*/
+}
+
+.navbar-input-group input {
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+.navbar-input-group .btn {
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border-left: 0px;
+}
+
+/* NAVBAR END */
