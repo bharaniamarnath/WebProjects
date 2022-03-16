@@ -51,7 +51,7 @@ $insfeed->execute(array(
 
 /* MAIL ENQUIRY BEGIN*/
 
-$to = "cephilo@gmail.com";
+$to = "";
 $subject = "DONOR ID: " . $cid;
 
 $message ="

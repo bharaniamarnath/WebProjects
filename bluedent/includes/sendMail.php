@@ -9,8 +9,8 @@
 		  $mail->SMTPAuth   = true;
 		  $mail->Host       = "smtp.gmail.com";
 		  $mail->Port       = 587;
-		  $mail->Username   = "info.lumibella@gmail.com";
-		  $mail->Password   = "lumibella@88";
+		  $mail->Username   = "";
+		  $mail->Password   = "";
 		  $mail->SMTPSecure = 'tls';
 		  $mail->SetFrom('info.lumibella@gmail.com', 'Lumibella Fashions');
 		  $mail->AddReplyTo("info.lumibella@gmail.com","Lumibella Fashions");

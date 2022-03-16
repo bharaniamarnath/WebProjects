@@ -16,8 +16,8 @@
 		  $mail->SMTPAuth   = true;
 		  $mail->Host       = "smtp.gmail.com";
 		  $mail->Port       = 465;
-		  $mail->Username   = "mailer.bluedentindia@gmail.com";
-	          $mail->Password   = "b1u3d3ntindi@";
+		  $mail->Username   = "";
+	          $mail->Password   = "";
 		  $mail->SMTPSecure = 'ssl';
 		  $mail->SetFrom($efrom, $ename);
 		  $mail->AddReplyTo($efrom, $ename);

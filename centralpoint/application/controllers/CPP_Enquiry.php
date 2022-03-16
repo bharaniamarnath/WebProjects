@@ -75,14 +75,14 @@ class CPP_Enquiry extends CI_Controller{
 		$config['protocol'] = 'smtp';
 		$config['smtp_host'] = 'ssl://smtp.gmail.com';
 		$config['smtp_port'] = '465';
-		$config['smtp_user'] = 'mailer.centralpoint@gmail.com';
-		$config['smtp_pass'] = 'central.p0int';
+		$config['smtp_user'] = '';
+		$config['smtp_pass'] = '';
 		$config['mailtype'] = 'html';
 		$config['wordwrap'] = TRUE;
 		$config['charset'] = 'iso-8859-1';
 		$config['newline'] = "\r\n";
 		$this->email->initialize($config);
-		$to_mail = "cephilo@gmail.com";
+		$to_mail = "";
 		$subject = "Enquiry - Central Point Pharmacy";
 		$message = "<html><body style=\"background-color: #ffffff;color: #ff3c64;\"><table cellpadding=\"10\" cellspacing=\"0\" style=\background-color: #ffffff; color: #a05064\"><tr><th colspan=\"2\" style=\"background-color: #ffffff;\"><img src=\"http://www.centralpointpharmacy.com/assets/logos/cpp-logo.png \" width=\"250\" /></th></tr><tr><th colspan=\"2\" style=\"background-color: #ff3c64; color: #ffffff;\">Enquiry ID: CPE$mailid</th></tr><tr><td><b>Name:</b></td><td>$mname</td></tr><tr><td><b>Phone:</b></td><td>$mphone</td></tr><tr><td><b>Email:</b></td><td>$memail</td></tr><tr><td><b>Enquiry Message:</b></td><td>$mmessage</td></tr><tr><td colspan=\"2\" style=\"background-color: #ffffff; color: #999999;\"><center>This email is sent by the enquirer via Central Point Pharmacy website <a href=\"http://www.centralpointpharmacy.com\">www.centralpointpharmacy.com</a><br/>PO Box 1448, Le-Chantier Mall, Francis-Rachel Street, Victoria, Mahe, Seychelles.<br/>+248 4225574<br/><span style=\"text-decoration: none; color: #a05064;\">cppharmacy@live.com, cppharmacy@seychelles.net</span></center></td></tr></table></body></html>";
 		$this->email->from($memail,$mname);

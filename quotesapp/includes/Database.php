@@ -4,8 +4,8 @@ class Database{
 	protected $db;
 	
 	private $hostname = 'localhost';
-	private $user = 'bharani';
-	private $passwd = 'php/mysql;db.';
+	private $user = '';
+	private $passwd = '';
 	private $dbname = 'quotesapp';
 	
 	public function __construct(){

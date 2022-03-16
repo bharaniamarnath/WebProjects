@@ -15,11 +15,11 @@
 		  $mail->SMTPAuth   = true;
 		  $mail->Host       = "smtp.gmail.com";
 		  $mail->Port       = 587;
-		  $mail->Username   = "info.lumibella@gmail.com";
-	      $mail->Password   = "lumibella@88";
+		  $mail->Username   = "";
+	      $mail->Password   = "";
 		  $mail->SMTPSecure = 'tls';
-		  $mail->SetFrom('lumibellastore@gmail.com', 'Lumibella Fashions');
-		  $mail->AddReplyTo('lumibellastore@gmail.com', 'Lumibella Fashions');
+		  $mail->SetFrom('', 'Lumibella Fashions');
+		  $mail->AddReplyTo('', 'Lumibella Fashions');
 		  $mail->Subject    = $subject;
 		  $mail->AltBody    = "Lumibella Fashions Purchase Order Detail";
 		  $mail->MsgHTML($body);

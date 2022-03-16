@@ -76,8 +76,8 @@ class Enquiry extends CI_Controller{
 		$config['protocol'] = 'smtp';
 		$config['smtp_host'] = 'ssl://smtp.gmail.com';
 		$config['smtp_port'] = '465';
-		$config['smtp_user'] = 'mailer.centralpoint@gmail.com';
-		$config['smtp_pass'] = 'central.p0int';
+		$config['smtp_user'] = '';
+		$config['smtp_pass'] = '';
 		$config['mailtype'] = 'html';
 		$config['wordwrap'] = TRUE;
 		$config['charset'] = 'iso-8859-1';
